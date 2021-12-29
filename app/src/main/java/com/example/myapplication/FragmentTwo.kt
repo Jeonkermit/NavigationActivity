@@ -47,62 +47,62 @@ class FragmentTwo : Fragment() {
                 textView.text = "0"
             } else {
                 list.add(0)
-                temp = list.toString()
+                temp = list.joinToString("")
                 textView.text = temp
             }
         }
 
         button1.setOnClickListener {
             list.add(1)
-            temp = list.toString()
+            temp = list.joinToString("")
             textView.text = temp
         }
 
         button2.setOnClickListener {
             list.add(2)
-            temp = list.toString()
+            temp = list.joinToString("")
             textView.text = temp
         }
 
         button3.setOnClickListener {
             list.add(3)
-            temp = list.toString()
+            temp = list.joinToString("")
             textView.text = temp
         }
 
         button4.setOnClickListener {
             list.add(4)
-            temp = list.toString()
+            temp = list.joinToString("")
             textView.text = temp
         }
 
         button5.setOnClickListener {
             list.add(5)
-            temp = list.toString()
+            temp = list.joinToString("")
             textView.text = temp
         }
 
         button6.setOnClickListener {
             list.add(6)
-            temp = list.toString()
+            temp = list.joinToString("")
             textView.text = temp
         }
 
         button7.setOnClickListener {
             list.add(7)
-            temp = list.toString()
+            temp = list.joinToString("")
             textView.text = temp
         }
 
         button8.setOnClickListener {
             list.add(8)
-            temp = list.toString()
+            temp = list.joinToString("")
             textView.text = temp
         }
 
         button9.setOnClickListener {
             list.add(9)
-            temp = list.toString()
+            temp = list.joinToString("")
             textView.text = temp
         }
 
@@ -178,4 +178,5 @@ class FragmentTwo : Fragment() {
         }
         return frag
     }
+
 }

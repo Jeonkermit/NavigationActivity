@@ -16,7 +16,7 @@
         app:menu="@menu/menu_navigation_bar"
         />
 
-    <fragment
+    <FrameLayout
         android:id="@+id/fragment_container"
         android:layout_width="0dp"
         android:layout_height="0dp"
